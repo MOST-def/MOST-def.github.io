@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install sphinx myst-parser
+        run: pip install sphinx myst-parser sphinxcontrib-bibtex
       - name: Build Sphinx site
         run: sphinx-build docs/source _site
       - uses: actions/upload-pages-artifact@v3

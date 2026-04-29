@@ -1,0 +1,100 @@
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 24px;
+    padding: 1rem 0;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.team-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-card a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.team-card a:hover {
+    text-decoration: underline;
+}
+
+.team-card p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0;
+}
+
+div.big-code pre {
+    font-size: 1.0em;
+    font-style: italic;
+    background-color: white;
+    color: #1b3c53;
+    border-radius: 0px;
+    border-radius: 4px;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+div.body h1 {
+    font-size: 1.6em;
+}
+
+div.body h2 {
+    font-size: 1.3em;
+}
+
+div.body h3 {
+    font-size: 1.1em;
+}
+
+div.mobile-logo {
+    display: none;
+}
+
+@media (max-width: 875px) {
+    div.mobile-logo {
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    div.mobile-logo img {
+        max-width: 200px;
+    }
+}
+
+div.figure-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 16px;
+    margin: 1rem 0;
+    align-items: end;
+}
+
+div.figure-row figure {
+    margin: 0;
+    text-align: center;
+}
+
+div.figure-row figure img {
+    width: 100%;
+    height: auto;
+}
+
+div.figure-row figure figcaption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 6px;
+}
