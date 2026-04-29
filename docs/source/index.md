@@ -30,8 +30,6 @@ Fluid flows can transport scalars such as heat, pollutants, and other quantities
 
 # Team
 
-Here is some test text added through github.
-
 ```{raw} html
 <div class="team-grid">
   <div class="team-card">
